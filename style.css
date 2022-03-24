@@ -1,0 +1,32 @@
+.kommentare {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: beige;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: azure;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+}

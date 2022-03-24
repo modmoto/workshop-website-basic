@@ -4,10 +4,40 @@
         <title>
             Willkommen zu Simons Gästebuch
         </title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
     </head>
     <body>
         <div>
-            Hallo da draußen
+            <span>Name:</span>
+            <input type="text" id="name-field">
+        </div>
+        <div>
+            <span>Kommentar:</span>
+            <input type="text" id="text-field">
+        </div>
+
+        <button id="add-comment">
+            ...
+        </button>
+
+        <div class="container">
+            <button id="count-down-button">
+                -
+            </button>
+
+            <button id="count-up-button">
+                +
+            </button>
+        </div>
+
+        <div id="counter">
+            0
+        </div>
+
+        <div id="kommentar-container">
+            keine Kommentare bis jetzt
         </div>
     </body>
 </html>
