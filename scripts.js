@@ -1,3 +1,4 @@
 window.onload = () => {
-    document.getElementById('add-comment').textContent = 'Schreibe Kommentar'
+    let addCommentButton = document.getElementById('add-comment')
+    addCommentButton.textContent = 'Schreibe Kommentar'
 }
